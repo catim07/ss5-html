@@ -1,0 +1,28 @@
+.a1{
+    padding-left: 20px;
+}
+.naudo{
+    color: brown;
+    background-color: gray;
+}
+.a2{
+    text-align: center;
+    border: green solid 2px;
+    padding: 20px;
+}
+.a3{
+    background-color: gainsboro;
+    padding: 20px;
+}
+.a4{
+    padding: 20px;
+    background-color: white;
+    border-left: solid green 10px;
+}
+.a5{
+    background-color: green;
+    color: white;
+    border-radius: 15px;
+    padding: 5px;
+    width: 10%;
+}

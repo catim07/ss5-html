@@ -1,0 +1,21 @@
+body {
+    background-color: gray;
+    text-align: center;
+}
+table {
+    width: 98%;
+    margin: auto;
+    background: white;
+}
+th {
+    background: blue;
+    color: white;
+    padding: 10px;
+}
+td {
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+.white-row{
+    background: #5b5353;
+}

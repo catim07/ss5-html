@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Billing Form</title>
+    <link rel="stylesheet" href="./ss5bt10.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Billing address</h2>
+        <form>
+            <div class="row">
+                <div class="column">
+                    <label>First name</label>
+                    <input type="text" placeholder="First name">
+                </div>
+                <div class="column">
+                    <label>Last name</label>
+                    <input type="text" placeholder="Last name">
+                </div>
+            </div>
+
+            <label>Username</label>
+            <input type="text" placeholder="Username">
+
+            <label>Email (Optional)</label>
+            <input type="email" placeholder="you@example.com">
+
+            <label>Address</label>
+            <input type="text" placeholder="1234 Main St">
+
+            <label>Address 2 (Optional)</label>
+            <input type="text" placeholder="Apartment or suite">
+
+            <div class="row">
+                <div class="column">
+                    <label>Country</label>
+                    <select>
+                        <option>Choose...</option>
+                    </select>
+                </div>
+                <div class="column">
+                    <label>State</label>
+                    <select>
+                        <option>Choose...</option>
+                    </select>
+                </div>
+                <div class="column">
+                    <label>Zip</label>
+                    <input type="text">
+                </div>
+            </div>
+
+            <label><input type="checkbox"> Shipping address is the same as my billing address</label>
+            <label><input type="checkbox"> Save this information for next time</label>
+
+            <h2>Payment</h2>
+            <label><input type="radio" name="payment"> Credit card</label>
+            <label><input type="radio" name="payment"> Debit card</label>
+            <label><input type="radio" name="payment"> PayPal</label>
+
+            <div class="row">
+                <div class="column">
+                    <label>Name on card</label>
+                    <input type="text">
+                </div>
+                <div class="column">
+                    <label>Credit card number</label>
+                    <input type="text">
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="column">
+                    <label>Expiration</label>
+                    <input type="text">
+                </div>
+                <div class="column">
+                    <label>CVV</label>
+                    <input type="text">
+                </div>
+            </div>
+
+            <button type="submit">Continue to checkout</button>
+        </form>
+    </div>
+</body>
+</html>

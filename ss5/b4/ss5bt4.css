@@ -1,0 +1,13 @@
+
+#xam{
+    color: gainsboro;
+}
+.a1{
+    text-align: left;
+    margin: auto;
+    display: flex;
+    font-size: 200%;
+}
+.a2{
+    padding-left: 50px;
+}

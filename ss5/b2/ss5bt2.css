@@ -1,0 +1,10 @@
+body{
+    background-color: black;
+}
+h1{
+    color: aliceblue;
+}
+p{
+    color: chartreuse;
+    text-decoration: underline dotted;
+}
